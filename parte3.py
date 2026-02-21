@@ -7,7 +7,7 @@ try:
         host='localhost',
         user='root',
         password='root',
-        database='tarea1')
+        database='python_tarea',)
     if conexion.is_connected():
         print("Conexión exitosa")
         cursor = conexion.cursor()
